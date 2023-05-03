@@ -273,6 +273,16 @@ export type MapMarkerProps = ViewProps & {
   tappable?: boolean;
 
   /**
+   * testID for e2e testing
+   */
+  testID?: string;
+
+  /**
+   * accessibility ID for accessibility
+   */
+  accessibilityLabel?: string;
+
+  /**
    * The title of the marker.
    * This is only used if the <Marker /> component has no `<Callout />` children.
    *

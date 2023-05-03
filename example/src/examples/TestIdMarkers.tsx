@@ -42,6 +42,7 @@ export default class MarkerTypes extends React.Component<any, any> {
           }}>
           <Marker
             testID="marker"
+            title="title"
             coordinate={this.state.a}
             onSelect={e => log('onSelect', e)}
             onDrag={e => log('onDrag', e)}
